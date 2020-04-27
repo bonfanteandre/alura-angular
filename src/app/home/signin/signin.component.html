@@ -10,7 +10,7 @@
 
     <div class="form-group">
         <input formControlName="password" type="password" class="form-control" placeholder="Password">              
-        <ap-vmessage text="Password is required!" *ngIf="loginForm.get('username').errors?.required">
+        <ap-vmessage text="Password is required!" *ngIf="loginForm.get('password').errors?.required">
         </ap-vmessage>
     </div>
 
