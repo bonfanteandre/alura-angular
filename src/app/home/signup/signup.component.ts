@@ -8,7 +8,7 @@ import { SignUpService } from './signup.service';
 import { PlatformDetector } from 'src/app/core/platform-detector/platform-detector.service';
 
 @Component({
-    template: 'ap-signup',
+    selector: 'ap-signup',
     templateUrl: './signup.component.html'
 })
 export class SignUpComponent implements OnInit {
